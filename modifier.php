@@ -1,14 +1,12 @@
 <?php
 include 'config.php';
 
-// Récupération du livre à modifier
 if(isset($_GET['id'])) {
     $stmt = $pdo->prepare("SELECT * FROM livres WHERE id = ?");
     $stmt->execute([$_GET['id']]);
     $livre = $stmt->fetch();
 }
 
-// Traitement du formulaire
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
     try {
         $sql = "UPDATE livres SET 

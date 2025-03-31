@@ -10,7 +10,6 @@
 <div class="container mt-5">
     <h1 class="mb-4">ma super bibliothèque qui tue smr</h1>
 
-    <!-- form ajout de livre -->
     <form method="POST" action="ajouter.php" class="mb-5">
         <h3>ajouter un livre</h3>
         <div class="mb-3">
@@ -28,7 +27,6 @@
         <button type="submit" class="btn btn-success">ajouter le livre dans la bibliothèque</button>
     </form>
 
-    <!-- Liste des livres -->
     <h3>la bibliothèque</h3>
     <table class="table table-striped" style= "color: white">
         <thead>

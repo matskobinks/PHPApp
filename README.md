@@ -6,5 +6,4 @@
  - lancer apache + mysql
  - importer la db
  - copier les fichiers dans htdocs
- - manger du caca
  - voila c'est fini ça marche
